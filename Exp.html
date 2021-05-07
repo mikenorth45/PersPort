@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        Figure out more about the following under head for later, metadata
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Formats\GeneralForm.css">
+    <link rel="stylesheet" href="Formats/ProjectForm.css">
+    <script src="Programming/GeneralProgram.js"></script>
+    
+</head>
+
+<body>
+  <div class="headholder"> 
+    <img id="perLogo" src="Photos/FakePersonalLogo.png">
+    <p id="Corey">Corey </p>
+    <p id="Braun"> Braun</p> 
+  </div>
+
+  <div id="projHub">
+    <h1>Project</h1>
+    <p> this is all the infomation for the stuff</p>
+
+
+    <div id="project"> 
+      <div onmouseout="closeProject(this)" onmouseover="openProject(this)" class="projectTop"></div>  
+      
+      <div class="projectSlideHolder">
+        <img class="mySlides" src="Photos/resumeshot.PNG" style="width:100%">
+        <img class="mySlides" src="Photos/robotslider8.png" style="width:100%">
+              
+        <button class="b-left" onclick="plusDivs(-1)"></button>
+        <button class="b-right" onclick="plusDivs(1)"></button>
+      </div>
+
+      <!--include here desk picture top background holder-->
+      <div  id="projectslide">
+        <h1>Project 1</h1>
+        <p>description of prjecta one</p>
+      </div>
+
+      
+    </div>
+
+
+
+
+  </div>
+</body>
+
+</html>

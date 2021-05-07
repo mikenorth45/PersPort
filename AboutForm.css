@@ -1,0 +1,146 @@
+div.profile{
+    margin: 10px;
+    width: 100%;
+    height: 1900px;
+}
+div.profile >div{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    height: 300px;
+    width: 300px;
+}
+#one {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: inherit;
+    height: inherit;
+}
+#two{
+    position: absolute;
+    z-index: 3;
+    top: 35px;
+    left: 5px;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+div.profile > h1{
+    position: absolute;
+    top: 180px;
+    left: 327px;
+    font-size: 50px;
+    color: black;
+    z-index: 3;
+}
+div.profile > p{
+    position: absolute;
+    top: 250px;
+    left: 327px;
+    font-size: 20px;
+    color: black;
+    z-index: 3;
+
+}
+div.education{
+
+}
+#three{
+    position: absolute;
+    top: 240px;
+    left: 80px;
+    width: 600px;
+    z-index: 1;
+}
+#four{
+    position: absolute;
+    top: 410px;
+    left: -30px;
+    width: 500px;
+    z-index: 4;
+}
+iframe.bioVid{
+    position: absolute;
+    width: 340px;
+    height: 180px;
+    top: 450px;
+    left: 60px;
+    z-index: 5;
+}
+#five{
+    position: absolute;
+    top: 650px;
+    left: -30px;
+    width: 400px;
+    z-index: 3;
+}
+div.skills{
+
+}
+div.goals{
+
+}
+#six{
+    position: absolute;
+    top: 930px;
+    left: 30px;
+    width: 190px;
+    z-index: 2;
+}
+#seven{
+    position: absolute;
+    top: 1000px;
+    left: 30px;
+    width: 600px;
+    z-index: 2;
+}
+div.hobbies{
+
+}
+
+#eight{
+    position: absolute;
+    top: 1235px;
+    left: 400px;
+    width: 200px;
+    height: 100px;
+    z-index: 2;
+}
+#nine{
+    position: absolute;
+    top: 1320px;
+    left: 20px;
+    width: 650px;
+    height: 300px;
+    z-index: 1;
+}
+#ten{
+    position: absolute;
+    top: 550px;
+    left: 300px;
+    height: 500px;
+    width: 400px;
+    z-index: 1;
+}
+#eleven{
+    position: absolute;
+    top: 545px;
+    left: 526px;
+    height: 100px;
+    width: 150px;
+    z-index: 2;
+}
+#twelve{
+    position: absolute;
+    top: 180px;
+    left: 200px;
+    z-index: 2;
+    width: 300px;
+    height: 70px;
+    z-index: 1;
+}
